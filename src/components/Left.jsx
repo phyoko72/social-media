@@ -12,7 +12,7 @@ import {
 const Left = () => {
     return (
         <>
-            <div className=" bg-teal-500 flex-[3] overflow-y-auto">
+            <div className=" bg-teal-500 flex-[3] overflow-y-auto sticky top-0">
                 <div className=" px-8 py-10">
                     <ul>
                         <li className="flex items-center gap-6 mb-4">

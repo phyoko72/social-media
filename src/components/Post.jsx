@@ -1,6 +1,9 @@
 import {MoreVert} from "@mui/icons-material"
+import {useState} from "react"
 
 const Post = () => {
+    const [like, setLike] = useState(1)
+    const [isLiked, setIsLiked] = useState(false)
     return (
         <>
             <div className=" box-shadow bg-white mt-3 p-2">
@@ -31,14 +34,19 @@ const Post = () => {
                         <img
                             src="/assets/like.png"
                             alt="Like"
-                            className=" w-7"
+                            className=" w-7 cursor-pointer"
+                            onClick={() => {
+                                setIsLiked(!isLiked)
+                                setLike(isLiked ? like + 1 : like - 1)
+                                console.log(isLiked)
+                            }}
                         />
                         <img
                             src="/assets/heart.png"
                             alt="Heart"
-                            className=" w-7"
+                            className=" w-7 cursor-pointer"
                         />
-                        <span>32 people like it</span>
+                        <span>{like} people like it</span>
                     </div>
                     <div className="bottomRight cursor-pointer hover:underline underline-offset-1">
                         <span>9 comments</span>

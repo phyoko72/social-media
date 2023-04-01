@@ -1,7 +1,19 @@
+import Feed from "../components/Feed"
+import Left from "../components/Left"
+import Right from "../components/Right"
+import Topbar from "../components/Topbar"
+
 const Home = () => {
     return (
         <>
-            <h1>Home Page</h1>
+            <>
+                <Topbar />
+                <div className=" flex justify-between min-h-screen">
+                    <Left />
+                    <Feed />
+                    <Right />
+                </div>
+            </>
         </>
     )
 }

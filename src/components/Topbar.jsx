@@ -3,7 +3,7 @@ import {Message, Notifications, Person, Search} from "@mui/icons-material"
 const Topbar = () => {
     return (
         <>
-            <div className=" w-full h-[60px] bg-blue-600 text-white/95 flex items-center sticky top-0">
+            <div className=" w-full h-[60px] bg-blue-600 text-white/95 flex items-center sticky top-0 z-20">
                 <div className="left flex-[3]">
                     <h1 className=" text-2xl font-bold cursor-pointer text-center">
                         Talk2Me

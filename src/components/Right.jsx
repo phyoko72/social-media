@@ -1,3 +1,5 @@
+import OnlineFriends from "./OnlineFriends"
+
 const Right = () => {
     return (
         <>
@@ -19,6 +21,14 @@ const Right = () => {
                         alt="ads"
                         className=" rounded my-2"
                     />
+                    <br />
+                    <h4>Online Friends</h4>
+                    <div className=" my-2 Online-Fri">
+                        <OnlineFriends />
+                        <OnlineFriends />
+                        <OnlineFriends />
+                        <OnlineFriends />
+                    </div>
                 </div>
             </div>
         </>

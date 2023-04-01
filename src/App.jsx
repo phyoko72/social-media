@@ -1,18 +1,15 @@
-import Feed from "./components/Feed"
-import Left from "./components/Left"
-import Right from "./components/Right"
-import Topbar from "./components/Topbar"
+import {BrowserRouter, Route, Router, Routes} from "react-router-dom"
+import Home from "./pages/Home"
+import Profile from "./pages/Profile"
 
 function App() {
     return (
-        <>
-            <Topbar />
-            <div className=" flex justify-between h-screen">
-                <Left />
-                <Feed />
-                <Right />
-            </div>
-        </>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" index element={<Home />} />
+                <Route path="/profile" element={<Profile />} />
+            </Routes>
+        </BrowserRouter>
     )
 }
 
