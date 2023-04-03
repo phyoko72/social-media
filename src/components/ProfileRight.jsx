@@ -28,7 +28,7 @@ const ProfileRight = () => {
                     <div className=" flex flex-wrap gap-3 justify-evenly border-4 border-white p-2">
                         <div className="">
                             <img
-                                src="assets/person/3.jpeg"
+                                src="/assets/person/3.jpeg"
                                 alt="friend"
                                 className=" w-20 h-20 rounded-md object-cover"
                             />
@@ -36,7 +36,7 @@ const ProfileRight = () => {
                         </div>
                         <div className="">
                             <img
-                                src="assets/person/4.jpeg"
+                                src="/assets/person/4.jpeg"
                                 alt="friend"
                                 className=" w-20 h-20 rounded-md object-cover"
                             />
@@ -44,7 +44,7 @@ const ProfileRight = () => {
                         </div>
                         <div className="">
                             <img
-                                src="assets/person/5.jpeg"
+                                src="/assets/person/5.jpeg"
                                 alt="friend"
                                 className=" w-20 h-20 rounded-md object-cover"
                             />
@@ -52,7 +52,7 @@ const ProfileRight = () => {
                         </div>
                         <div className="">
                             <img
-                                src="assets/person/7.jpeg"
+                                src="/assets/person/7.jpeg"
                                 alt="friend"
                                 className=" w-20 h-20 rounded-md object-cover"
                             />
@@ -60,7 +60,7 @@ const ProfileRight = () => {
                         </div>
                         <div className="">
                             <img
-                                src="assets/person/8.jpeg"
+                                src="/assets/person/8.jpeg"
                                 alt="friend"
                                 className=" w-20 h-20 rounded-md object-cover"
                             />
@@ -68,7 +68,7 @@ const ProfileRight = () => {
                         </div>
                         <div className="">
                             <img
-                                src="assets/person/9.jpeg"
+                                src="/assets/person/9.jpeg"
                                 alt="friend"
                                 className=" w-20 h-20 rounded-md object-cover"
                             />

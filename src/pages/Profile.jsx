@@ -14,12 +14,12 @@ const Profile = () => {
                         <div className="rightTop">
                             <div className=" relative bg-yellow-700 p-2 h-72">
                                 <img
-                                    src="assets/post/canada.png"
+                                    src="/assets/post/canada.png"
                                     alt="cover"
                                     className=" w-full h-64 object-cover"
                                 />
                                 <img
-                                    src="assets/person/2.jpeg"
+                                    src="/assets/person/2.jpeg"
                                     alt="profile"
                                     className=" w-32 h-32 rounded-full object-cover absolute -bottom-9 left-0 right-0 m-auto border-4
                                       border-white"
